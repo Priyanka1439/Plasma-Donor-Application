@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ url_for('static', filename='logo.ico') }}">
+    
     <link rel="stylesheet" href="{{ url_for('static',filename='css/template.css') }}">
     
 </head>
@@ -33,25 +34,37 @@
                <li>
                    <a href="{{ url_for('about') }}">
                        <span class="icon"><i class="fas fa-user"></i></span>
-                       <span class="item">Personal Details</span>
+                       <span class="item">All Donors</span>
                    </a>
                </li>
                <li>
                    <a href="{{ url_for('home') }}">
                        <span class="icon"><i class="fas fa-search"></i></span>
-                       <span class="item">Search Donors</span>
+                       <span class="item">Verification</span>
                    </a>
                </li>
                <li>
-                   <a href="{{ url_for('requests') }}">
+                   <a href="#">
                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
-                       <span class="item">Requests</span>
+                       <span class="item">Perfomance</span>
                    </a>
                </li>
                <li>
                    <a href="#">
                        <span class="icon"><i class="fas fa-database"></i></span>
                        <span class="item">Development</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="#">
+                       <span class="icon"><i class="fas fa-chart-line"></i></span>
+                       <span class="item">Reports</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="#">
+                       <span class="icon"><i class="fas fa-user-shield"></i></span>
+                       <span class="item">Admin</span>
                    </a>
                </li>
                <li>
